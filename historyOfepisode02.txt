@@ -1,0 +1,164 @@
+ 1  git --version
+    2  git --help
+    3  clear
+    4  git --version
+    5  clear
+    6  pwd
+    7  ls
+    8  clear
+    9  ls
+   10  ls /Documents/
+   11  clear
+   12  ls -l
+   13  ls -l -a
+   14  ls -a
+   15  ls -la
+   16   ls -lath
+   17  ls --help
+   18  cd .
+   19  cd .VirtualBox/
+   20  cd ..
+   21  pwd
+   22  cd .VirtualBox/
+   23  ls
+   24  cd ~
+   25  cd -
+   26  cd -
+   27  mkdir Greg
+   28  cd Greg/
+   29  mkdir linux
+   30  ls
+   31  ls
+   32  cd linux/
+   33  cd ..
+   34  rmdir linux/
+   35  ls
+   36  mkdir szkolenie/prework
+   37  mkdir szkolenie
+   38  cd szkolenie/
+   39  mkdir prework linux python
+   40  ls
+   41  cd linux/
+   42  mkdir komendy git
+   43  cd ..
+   44  cd python/
+   45  mkdir podstawy
+   46  ls
+   47  cd ..
+   48  ls
+   49  ls
+   50  cd python/
+   51  cd ..
+   52  ls python/
+   53  ls linux/
+   54  rmdir linux
+   55  rmdir -R linux/
+   56  rmdir --help
+   57  mkdir django/tutorial/baba
+   58  mkdir -p django/tutorial/baba
+   59  ls
+   60  ls django/
+   61  ls django/tutorial/
+   62  rmdir django/tutorial/baba/ django/tutorial/ django/
+   63  ls linux/
+   64  rmdir linux/git/ linux/komendy/ linux/
+   65  rmdir prework/
+   66  touch plik.txt
+   67  ls
+   68  nano plik2.txt
+   69  cat plik2.txt
+   70  wc plik2.txt
+   71  cp plik2.txt kopia.txt
+   72  cat kopia.txt
+   73  ls
+   74  mv kopia.txt plik3.txt
+   75  ls
+   76  rm plik.txt plik3.txt
+   77  ls
+   78  rm python/ -R
+   79  rm plik2.txt
+   80  touch plik.txt
+   81  mkdir -p linux/komendy git
+   82  rm linux/ -R
+   83  mkdir -p linux/komendy linux/git
+   84  cp linux/ linux_kopia -R
+   85  mv linux_kopia/ linux2
+   86  history
+   87  clear
+   88  history
+   89  ls
+   90  ls -F
+   91  man ls
+   92  ls --help
+   93  ls -la
+   94  ls
+   95  cd Greg/
+   96  ls
+   97  cd szkolenie/
+   98  ls -lath
+   99  ls --version
+  100  ls
+  101  cat plik.txt
+  102  explorer.exe
+  103  explorer.exe .
+  104  explorer.exe .
+  105  ls
+  106  find ~ -name '*txt'
+  107  find . -name '*txt'
+  108  cd ~
+  109  ld
+  110  ls
+  111  cd Documents/
+  112  find . -name '*.txt'
+  113  find . -iname '*.txt'
+  114  find . -iname '*.xls'
+  115  ls
+  116  find . -iname '*dok*' -type d
+  117  cd ..
+  118  ls
+  119  cd Greg/
+  120  ls
+  121  cd szkolenie/
+  122  ls
+  123  grep 'a' plik.txt
+  124  grep 'a' plik.txt -n
+  125  ls
+  126  tar -xf sprawozdanie_finansowe.tar
+  127  explorer.exe .
+  128  cd sprawozdanie_finansowe
+  129  ls
+  130  find . -iname '*raport*' -type f
+  131  grep 'budżet' ./2017/11/_raport_.txt -n
+  132  cat ./2017/11/_raport_.txt
+  133  grep '*budżet*' ./2017/11/_raport_.txt -n
+  134  grep '*budżet*' ./2017/11/_raport_.txt -ni
+  135  grep '*budżet*' ./2017/11/_raport_.txt -Rn
+  136  grep 'budżet' _raport_.txt -n
+  137  cd ./2017/11/
+  138  ls
+  139  grep 'budżet' _raport_.txt -n
+  140  grep '*udżet' _raport_.txt -n
+  141  grep 'Budżet' _raport_.txt -n
+  142  grep -i 'budżet' _raport_.txt -n
+  143  grep -i 'budżet' _raport_.txt -n --color
+  144  cd ~~
+  145  cd ~
+  146  pwd
+  147  cd Greg/
+  148  ls
+  149  ssh-keygen.exe -t ed25519
+  150  git config --global user.name "Grzegorz Koczanowicz"
+  151  git config --global user.email "gkoczanowicz@gmail.com"
+  152  ls
+  153  ls szkolenie/
+  154  mkdir szkolenie_git
+  155  ls
+  156  cd szkolenie_git/
+  157  git init
+  158  touch index.html
+  159  ls
+  160  git add index.html
+  161  git commit -m "Initial commit"
+  162  git remote add origin git@github.com:TommyLeeGun/trening_GIT.git
+  163  git push -u origin master
+  164  history
